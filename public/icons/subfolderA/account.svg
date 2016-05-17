@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>icn_person</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.56 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icn_person" sketch:type="MSLayerGroup" filter="url(#filter-1)" fill="#FFFFFF">
+            <path d="M5.999625,0 C4.60235839,0 3.69334759,1.028625 3.60484653,2.0044375 C3.58084625,2.270125 3.63109685,2.773875 3.70084767,3.3345 C3.68434748,3.3304375 3.66859729,3.3288125 3.65359711,3.3288125 C3.35359355,3.3288125 3.30484297,4.0161875 3.31984315,4.2713125 C3.33484332,4.528875 3.58834634,5.0009375 3.84934944,5.0009375 C3.86959968,5.0009375 3.89059993,4.9985 3.91085017,4.992 C4.04960182,6.134375 4.49960717,6.498375 4.49960717,6.498375 L4.48760703,7.7130625 C4.48760703,7.7130625 4.20335365,7.895875 3.00633942,8.4231875 C1.80932519,8.9505 0.599560816,9.319375 0.239556538,9.9133125 C-0.0836973041,10.4446875 0.0138038547,13 0.0138038547,13 L11.9861961,13 C11.9861961,13 12.0836973,10.4446875 11.7604435,9.9133125 C11.3996892,9.319375 10.1906748,8.9505 8.99291057,8.4231875 C7.79589634,7.895875 7.51164297,7.7130625 7.51164297,7.7130625 L7.50039283,6.498375 C7.50039283,6.498375 7.94889816,6.134375 8.08839982,4.992 C8.10940007,4.9985 8.12965031,5.0009375 8.15065056,5.0009375 C8.41090365,5.0009375 8.66440667,4.528875 8.67865684,4.2713125 C8.69440702,4.0161875 8.64565644,3.3288125 8.34490287,3.3288125 C8.32990269,3.3288125 8.3141525,3.3304375 8.29840232,3.3345 C8.36815315,2.773875 8.41915375,2.270125 8.39440346,2.0044375 C8.3051524,1.028625 7.39614159,0 5.999625,0" id="Fill-5" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
